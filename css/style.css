@@ -83,27 +83,57 @@
 
 
 @media (min-width: 480px) {
+    .navigation ul li{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .image-container{
+        background-image: url('../img/profile1.jpg');
+    }
 
-  
+    .container{
+        width: 100%;
+    }
 
 }
 
 
 @media (min-width: 768px) {
-  
+    .image-container{
+        background-image: url('../img/profile2.jpg');
+    } 
 }
 
 
 @media (min-width: 1024px){
     
-  
+    .image-container{
+        background-image: url('../img/profile2.jpg');
+    }
 
 }
 
 
 @media (min-width: 1200px){
     
+    .image-container{
+        background-image: url('../img/profile3.jpg');
+    }
+
+    .navigation ul li{
+        display: inline;
+        
+    }
+    .html{
+        padding: 2rem;
+    }
 
 }
 
+
+h1 {
+    padding: 2rem;
+}
 
