@@ -96,6 +96,17 @@
     .container{
         width: 100%;
     }
+    p{
+        font-size: 30px;
+    }
+
+    .footer {
+        font-size: 1.3rem;
+    }
+
+    .footer p{
+        font-size: 1.3rem;
+    }
 
 }
 
@@ -104,6 +115,10 @@
     .image-container{
         background-image: url('../img/profile2.jpg');
     } 
+    p{
+        font-size: 20px;
+    }
+    
 }
 
 
@@ -112,6 +127,10 @@
     .image-container{
         background-image: url('../img/profile2.jpg');
     }
+    p{
+        font-size: 20px;
+    }
+    
 
 }
 
@@ -129,6 +148,11 @@
     .html{
         padding: 2rem;
     }
+    p{
+        font-size: 20px;
+    }
+    
+
 
 }
 
@@ -136,4 +160,3 @@
 h1 {
     padding: 2rem;
 }
-
